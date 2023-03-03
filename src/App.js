@@ -8,12 +8,12 @@ import React from 'react';
 import { fetchAuthMe, selectIsAuth } from './redux/slices/auth';
 
 function App() {
-  const dispatch = useDispatch();
-  const isAuth = useSelector(selectIsAuth);
+  // const dispatch = useDispatch();
+  // const isAuth = useSelector(selectIsAuth);
 
-  React.useEffect(() => {
-    dispatch(fetchAuthMe());
-  }, []);
+  // React.useEffect(() => {
+  //   dispatch(fetchAuthMe());
+  // }, []);
 
   return (
     <>
